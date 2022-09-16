@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import youtube from "./youtube.svg";
-import img1 from "./Acko-1.png";
-import img2 from "./Acko-2.png";
-import img3 from "./Acko-3.png";
-import img4 from "./Acko-4.png";
+import img1 from "./indeed.png";
+import img2 from "./indeedlogin.png";
+import img3 from "./indeeddes.png";
+import img4 from "./indeedpost.png";
 import left from "./left.gif";
 import right from "./right.gif";
 import style from "./project3.module.css";
