@@ -79,7 +79,7 @@ function Left() {
           <a target="_blank" href="https://www.linkedin.com/in/akshaya-annadurai-629916191/">
             <img className={style.img} src="/linkedin.svg" alt="linkedin" />
           </a>
-          <a target="_blank" href="https://twitter.com/AkshayaAnnadur1">
+          <a target="_blank" href="https://twitter.com/Akshaya_Annadur">
             <img src="/twitter.gif" alt="twitter" />
           </a>
         </div>
