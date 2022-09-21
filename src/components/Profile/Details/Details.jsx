@@ -42,7 +42,7 @@ function Details() {
               />
             </a>
 
-            <a target="_blank" href="https://twitter.com/AkshayaAnnadur1">
+            <a target="_blank" href="https://twitter.com/Akshaya_Annadur">
               <img className={style.twitter} src="/twitter.gif" alt="twitter" />
             </a>
           </div>
