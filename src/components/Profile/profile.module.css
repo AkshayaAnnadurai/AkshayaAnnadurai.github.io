@@ -1,6 +1,8 @@
 .profilebody{
     display: flex;
-    margin-top: 150px;
+      margin-top: 150px;  
+ 
+    
 }
 
 @media only screen and (max-width: 800px){
