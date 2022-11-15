@@ -1,4 +1,4 @@
-.main-stats{
+/* .main-stats{
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -89,4 +89,43 @@ p{
     
     }
     
+  } */
+
+  @media screen and (min-width:100px) and (max-width:768px) {
+  
+    .mystats>div{
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid  #2978b5; 
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .mystats>div>img{
+      width: 100%;
+    }
+  
+      
+}
+.skills {
+    text-align: center;
+    
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif
+   
+  }
+  .mystats{
+   margin: auto;
+   width: 65%;
+  }
+  .mystats>div{
+    margin: auto;
+    border: 2px solid  #2978b5; 
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .mystats>div>img{
+    width:90%
   }

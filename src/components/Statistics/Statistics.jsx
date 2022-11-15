@@ -1,41 +1,26 @@
 import React from 'react'
 import "./State.css"
+import { SimpleGrid, Box } from '@chakra-ui/react'
 
 const State= () => {
   return (
-    <div>
-        <h1 style={{textAlign:'center'}}>Statistics</h1>
-        <br /><br />
-        <div className='main-stats'>
-            <div>
-            <div className='circle'><p>1200+</p></div>
-            <h4>Hours</h4>
-            <h6>Of Coding</h6>
-            </div>
-            <div>
-            <div className='circle-even'><p>400+</p></div>
-            <h4>HackerRank</h4>
-            <h6>Points</h6>
-            </div>
-            <div>
-            <div className='circle'><p>400+</p> </div>
-            <h4>Git</h4>
-            <h6>Commits</h6>
-            </div>
-            <div>
-            <div className='circle-even'><p>3</p></div>
-            <h4>Projects</h4>
-            <h6>Done</h6>
-            </div>
-            <div>
-            <div className='circle'><p>100+</p></div>
-            <h4>Hours</h4>
-            <h6>Of Soft Skills</h6>
-            </div>
-            
+  <>
+ <div class="skills">Github Statistics</div>
+    <div class="mystats">
+        <div>
+            <img src="https://github-readme-stats.vercel.app/api?username=AkshayaAnnadurai&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=true" alt="AkshayaAnnadurai"/>
+        </div>
+        <div>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=AkshayaAnnadurai&theme=tokyonight&hide_border=false" alt="AkshayaAnnadurai"/>
+        </div>
+        <div>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkshayaAnnadurai&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=true&layout=compact" alt="AkshayaAnnadurai"/>
         </div>
     </div>
+    </>
   )
 }
 
 export default State
+
+

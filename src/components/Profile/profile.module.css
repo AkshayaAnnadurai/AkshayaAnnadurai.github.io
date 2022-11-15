@@ -21,6 +21,9 @@
         flex-direction: column;
         margin-left: 5%;
     }
+    .profilemargin{
+        margin-top: 1000px;
+    }
 }
 
 @media only screen 
@@ -31,4 +34,7 @@ and (max-width: 320px){
         flex-direction: column;
       margin-left: -1%;
      }
+     .profilebody{
+        margin-top: 90%;
+    }
 } 
