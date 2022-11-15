@@ -94,6 +94,7 @@ margin-top: 2.5vh;
  
     
 } 
+
 /* .mobilemenuicon
 {
      display: block;
@@ -110,10 +111,10 @@ width:100%;
 
      
 } 
-.a1,.a2,.a3,.a4,.a5,.resume{
+.a1,.a2,.a3,.a4,.a5,.a6{
      display: block;
      text-align: center;
-     padding: 32px;
+     padding: 12px;
      transition: all 0.5s ease-out;
 width:100%;
 }

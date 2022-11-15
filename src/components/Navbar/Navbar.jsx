@@ -2,7 +2,7 @@ import React, { useContext,useState } from "react";
 import style from "./navbar.module.css";
 import { FiMenu,FiX } from "react-icons/fi";
 import { useEffect } from "react";
-
+import Akshaya_Annadurai_Resume from "../Resume/Akshaya_Annadurai_Resume.pdf"
 
 function Navbar({IsMobile,setIsMobile}) {
 
@@ -40,9 +40,9 @@ function Navbar({IsMobile,setIsMobile}) {
         <a href="#contact" className={style.a5}>
           Contact
         </a>
-        <a href="https://drive.google.com/file/d/16tN9MnTDhJ2Os8efqW5DmY80CqDcO_JT/view" className={style.resume}>
-         <button>RESUME</button>
-        </a>
+        <a download href={Akshaya_Annadurai_Resume} target="_blank"
+className={style.a6} onClick={() => window.open("https://drive.google.com/file/d/16tN9MnTDhJ2Os8efqW5DmY80CqDcO_JT/view")} >Resume
+</a>
         </div>
       :< div className={style.flexx}>
         <a href="#home" className={style.a1}>
@@ -60,9 +60,10 @@ function Navbar({IsMobile,setIsMobile}) {
         <a href="#contact" className={style.a5}>
           Contact
         </a>
-        <a download href="../resume/Akshaya_Annadurai_Resume" target="blank"><button className={style.resume} onClick={()=>window.open("https://drive.google.com/file/d/16tN9MnTDhJ2Os8efqW5DmY80CqDcO_JT/view")} >
-         RESUME</button>
-        </a>
+        <a download href={Akshaya_Annadurai_Resume} target="_blank">
+{" "}
+<button className={style.resume} onClick={() => window.open("https://drive.google.com/file/d/16tN9MnTDhJ2Os8efqW5DmY80CqDcO_JT/view")} >Resume</button>
+</a>
         </div>  }
        
          

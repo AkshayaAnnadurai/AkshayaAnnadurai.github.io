@@ -2,7 +2,7 @@ import React from "react";
 // import {useHistory} from "react-router"
 // import { useNavigate } from "react-router-dom";
 import style from "./detail.module.css";
-
+import Akshaya_Annadurai_Resume from "../../Resume/Akshaya_Annadurai_Resume.pdf"
 
 function Details() {
   // const history = useHistory();
@@ -18,13 +18,14 @@ function Details() {
           <p className={style.fullstack}>
             Full-stack Web Developer | Competitive programmer
           </p>
-          <a
+          <a download href={Akshaya_Annadurai_Resume}
             target="_blank"
-            href="https://drive.google.com/file/d/16tN9MnTDhJ2Os8efqW5DmY80CqDcO_JT/view"
+            
           >
             {" "}
-            <button className={style.resume}>RESUME</button>
+            <button onClick={() => window.open("https://drive.google.com/file/d/16tN9MnTDhJ2Os8efqW5DmY80CqDcO_JT/view")} className={style.resume}>RESUME</button>
           </a>
+
           <div style={{ marginTop: "20px" }}>
             <a target="_blank" href="https://github.com/AkshayaAnnadurai">
               <img

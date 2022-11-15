@@ -7,7 +7,7 @@ function Profile({IsMobile}) {
   console.log(IsMobile)
     return (
       <div className={style.profilebody} >
-        {IsMobile?<div style={{marginTop:"400px"}} >
+        {IsMobile?<div style={{marginTop:"150px"}} >
           <Photo />
         </div>:
         <div >
