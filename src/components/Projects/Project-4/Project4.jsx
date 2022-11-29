@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import youtube from "./youtube.svg";
 import img1 from "./Home.png";
-import img2 from "./Post.png";
-import img3 from "./signin.png";
-import img4 from "./Logout.png";
+import img2 from "./login.png";
+import img3 from "./admin.png";
+import img4 from "./cart.png";
 import left from "./left.gif";
 import right from "./right.gif";
 import style from "./project4.module.css";
@@ -73,19 +73,16 @@ const Project4 = () => {
             fontWeight: "bolder",
           }}
         >
-          Instagram-2.0 (Solo project)
+          TAKEITNOW
         </h2>
         <p>
-          Instagram-2.0 is a similar clone of Instagram where a user can add
-          posts, likes, or comment on other users' posts after they Logged In.
-          If the user is not logged in he can see others post but cant do
-          comment or like on others post.
+        TAKEITNOW is a Spanish multi-national retail clothing chain. It specialises in fast fashion, and sells clothing, accessories, shoes, beauty products and perfumes.
         </p>
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
         <p>
-          Next.js | JavaScript | React | Tailwind CSS | Firebase V9 | Next Auth
-          | Recoil
+          Next.js | MongoDB | React | Axios | TypeScript | JSONWebToken | ChakraUI | Redux-toolkit
+          
         </p>
 
         <div className={style.btndivv}>
@@ -93,7 +90,7 @@ const Project4 = () => {
             <a
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://github.com/huxly123/Instagram-2.0"
+              href="https://github.com/Surya9263/flashy-burst-4121"
             >
               <span>
                 <svg
@@ -118,7 +115,7 @@ const Project4 = () => {
               code
             </a>
           </button>
-          {/* <button
+          <button
             className={style.btnpro}
             style={{ backgroundColor: "#286DAB" }}
           >
@@ -126,7 +123,7 @@ const Project4 = () => {
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://ackoclone-huxly123.vercel.app/"
+              href="https://takeitnow.vercel.app/"
             >
               <span>
                 <svg
@@ -151,9 +148,9 @@ const Project4 = () => {
               </span>
               Live
             </a>
-          </button> */}
+          </button> 
           {/* yt */}
-          <button className={style.btnpro} style={{ backgroundColor: "red" }}>
+          {/* <button className={style.btnpro} style={{ backgroundColor: "red" }}>
             <a
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
@@ -177,7 +174,7 @@ const Project4 = () => {
               </span>
               Demo
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

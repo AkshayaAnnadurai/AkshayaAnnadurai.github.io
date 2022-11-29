@@ -4,7 +4,7 @@ import Details from "./Details/Details"
 import Photo from "./Photo/Photo"
 
 function Profile({IsMobile}) {
-  console.log(IsMobile)
+ 
     return (
       <div className={style.profilebody} >
         {IsMobile?<div style={{marginTop:"150px"}} >
