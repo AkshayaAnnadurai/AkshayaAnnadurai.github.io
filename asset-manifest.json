@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.c8566ec7.css",
-    "main.js": "/static/js/main.82bcef5b.js",
+    "main.js": "/static/js/main.8f006a69.js",
     "static/js/787.202b8111.chunk.js": "/static/js/787.202b8111.chunk.js",
     "static/media/Anthropologie.png": "/static/media/Anthropologie.394570d5fd5d8ea1a028.png",
+    "static/media/Home.png": "/static/media/Home.9db450cfca2520aaf0c9.png",
     "static/media/anthcloth.png": "/static/media/anthcloth.c54ac56b64f7ea38046e.png",
+    "static/media/admin.png": "/static/media/admin.c4438ee6fc572e466d5b.png",
     "static/media/hindustan.png": "/static/media/hindustan.a362d1eb23cbbd6aedc0.png",
+    "static/media/cart.png": "/static/media/cart.f70b9243ed158499d934.png",
     "static/media/hinduexplore.png": "/static/media/hinduexplore.3ed492aa09c426c6dcdd.png",
     "static/media/indeeddes.png": "/static/media/indeeddes.61fccca1ec7161668c40.png",
-    "static/media/Home.png": "/static/media/Home.a7a6d588b0b2c2c1cb7b.png",
+    "static/media/login.png": "/static/media/login.a1ae4b486ebac2ffedc4.png",
     "static/media/hindustanpaymet.png": "/static/media/hindustanpaymet.6668c01847bea706a02e.png",
     "static/media/antbasket.png": "/static/media/antbasket.53f3c3e73f9d9176c153.png",
-    "static/media/Post.png": "/static/media/Post.e98723f38eaa5df1b7d3.png",
     "static/media/indeed.png": "/static/media/indeed.7db0649a6dfbab9dd425.png",
     "static/media/indeedpost.png": "/static/media/indeedpost.480f7d791d6eae996342.png",
-    "static/media/Logout.png": "/static/media/Logout.13c0343592f25e97d76a.png",
     "static/media/Akshaya_Annadurai_Resume.pdf": "/static/media/Akshaya_Annadurai_Resume.34d23e91defbd2caa34f.pdf",
     "static/media/indeedlogin.png": "/static/media/indeedlogin.30b599c7147491d6216d.png",
     "static/media/antpay.png": "/static/media/antpay.2e40e67961a3a5dc2515.png",
     "static/media/hindustanlogin.png": "/static/media/hindustanlogin.fa70d8fd9c6f75c308b6.png",
     "static/media/left.gif": "/static/media/left.e065a4c73b76fb78f026.gif",
     "static/media/right.gif": "/static/media/right.6c43c6a0c330bcb598b6.gif",
-    "static/media/signin.png": "/static/media/signin.9d0e2a02c318050e5694.png",
     "static/media/youtube.svg": "/static/media/youtube.3e3a3669a4099bca7c60df03e4358713.svg",
     "index.html": "/index.html",
     "main.c8566ec7.css.map": "/static/css/main.c8566ec7.css.map",
-    "main.82bcef5b.js.map": "/static/js/main.82bcef5b.js.map",
+    "main.8f006a69.js.map": "/static/js/main.8f006a69.js.map",
     "787.202b8111.chunk.js.map": "/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8566ec7.css",
-    "static/js/main.82bcef5b.js"
+    "static/js/main.8f006a69.js"
   ]
 }
